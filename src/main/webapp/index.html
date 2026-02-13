@@ -4,63 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Sebastian Escalante</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Sebastian Escalante Ramirez</h1>
-        <h2>Ingeniero de software</h2>
-        
-       <nav>
-               <a href="index.html">Inicio</a>
+    <div id="contenedor-principal">
+
+        <header>
+            <h1>Sebastian Escalante Ramirez</h1>
+            <h2>Ingeniero de software</h2>
+            
+            <nav>
+                <a href="index.html">Inicio</a>
                 <a href="about.html">Sobre mi</a>
                 <a href="skills.html">Habilidades</a>
                 <a href="work.html">Proyectos</a>
                 <a href="contact.html">Contacto</a>
             </nav>
-    </header>
+        </header>
 
-    <main>
-        
-        <section>
-            <h3>Sobre mi</h3>
-            <p><strong>Sebastian Escalante Ramirez</strong></p>
-            <p>Ingeniero de Software en proceso con gran interés en proyectos que solucionen problemas reales en diferentes industrias.</p>
-            <p>Soy un estudiante apasionado por la tecnología y el desarrollo de soluciones innovadoras.</p>
-        </section>
+        <main>
+            
+            <img id="foto-perfil" src="assets/foto_sebas.png" alt="Sebastian Escalante">
+            
+            <section class="texto-destacado">
+                <h3>Sobre mi</h3>
+                <p><strong>Sebastian Escalante Ramirez</strong></p>
+                <p>Ingeniero de Software en proceso con gran interés en proyectos que solucionen problemas reales en diferentes industrias.</p>
+                <p>Soy un estudiante apasionado por la tecnología y el desarrollo de soluciones innovadoras.</p>
+            </section>
 
-        <section>
-            <h3>Habilidades</h3>
-            <p>Conocimientos en Java, MySql, MongoDB, y metodologías ágiles.</p>
-        </section>
+            <section id="barra-habilidades">
+                <h3>Habilidades</h3>
+                <p>Conocimientos en:</p>
+                <span class="badge-tecnologia">Java</span>
+                <span class="badge-tecnologia">MySQL</span>
+                <span class="badge-tecnologia">MongoDB</span>
+                <span class="badge-tecnologia">Metodologías Ágiles</span>
+            </section>
 
-        <section>
-            <h3>Proyectos destacados</h3>
-            <article>
-                <h4>Sistema de Gestión Académica</h4>
-                <p>Un proyecto enfocado en la organización de datos escolares utilizando estructuras de datos eficientes.</p>
-            </article>
-        </section>
+            <section class="tarjeta-proyecto">
+                
+                <h3>Proyectos destacados</h3>
+                <article>
+                    <h4>Sistema de Gestión Académica</h4>
+                    <p>Un proyecto enfocado en la organización de datos escolares utilizando estructuras de datos eficientes.</p>
+                    
+                    <p><strong>Tecnologías:</strong></p>
+                    <span class="badge-tecnologia">Java</span>
+                    <span class="badge-tecnologia">MySQL</span>
+                </article>
+            </section>
 
-        <section>
-            <h3>Contacto</h3>
-            <p>Puedes contactarme vía correo en: <a href="mailto:sebastian.escalante252321@potros.itson.edu.mx">sebastian.escalante252321@potros.itson.edu.mx</a></p>
-        </section>
+            <section>
+                <h3>Contacto</h3>
+                <p>Puedes contactarme vía correo en: <a href="mailto:sebastian.escalante252321@potros.itson.edu.mx">sebastian.escalante252321@potros.itson.edu.mx</a></p>
+                <a href="contact.html" class="boton-destacado">Enviar Mensaje</a>
+            </section>
 
-    </main>
+        </main>
 
-    <footer>
-        <section>
-            <p>Sigueme en mis redes:</p>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Github</a></li>
-            </ul>
-        </section>
+        <footer>
+            <div class="redes-sociales">
+                <p>Sigueme en mis redes:</p>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Github</a>
+            </div>
 
-        <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
-    </footer>
+            <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
+        </footer>
+
+    </div>
 
 </body>
 </html>

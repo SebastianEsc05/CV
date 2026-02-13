@@ -4,66 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habilidades - Sebastian Escalante</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Sebastian Escalante Ramirez</h1>
-        <h2>Ingeniero de software</h2>
-        
-       <nav>
-               <a href="index.html">Inicio</a>
+    <div id="contenedor-principal">
+
+        <header>
+            <h1>Sebastian Escalante Ramirez</h1>
+            <h2>Ingeniero de software</h2>
+            
+            <nav>
+                <a href="index.html">Inicio</a>
                 <a href="about.html">Sobre mi</a>
                 <a href="skills.html">Habilidades</a>
                 <a href="work.html">Proyectos</a>
                 <a href="contact.html">Contacto</a>
             </nav>
-    </header>
+        </header>
 
-    <main>
-        <section>
-            <h3>Mis Habilidades Técnicas</h3>
-            <p>Conjunto de tecnologías y herramientas que utilizo para el desarrollo de software:</p>
+        <main>
+            <section id="barra-habilidades">
+                <h3>Mis Habilidades Técnicas</h3>
+                <p>Conjunto de tecnologías y herramientas que utilizo para el desarrollo de software:</p>
 
-            <h4>Lenguajes y Bases de Datos</h4>
-            <ul>
-                <li>Java (Nivel Intermedio)</li>
-                <li>MySQL (Gestión de bases de datos relacionales)</li>
-                <li>MongoDB (NoSQL)</li>
-                <li>HTML5</li>
-            </ul>
+                <h4>Lenguajes y Bases de Datos</h4>
+                <span class="badge-tecnologia">Java (Nivel Intermedio)</span>
+                <span class="badge-tecnologia">MySQL</span>
+                <span class="badge-tecnologia">MongoDB</span>
+                <span class="badge-tecnologia">HTML5</span>
+                <span class="badge-tecnologia">CSS3</span>
+            </section>
 
-            <h4>Herramientas y Metodologías</h4>
-            <ul>
-                <li>Metodologías Ágiles (Scrum)</li>
-                <li>Git y GitHub (Control de versiones)</li>
-                <li>Resolución de problemas logicos</li>
-            </ul>
-        </section>
+            <section>
+                <h3>Herramientas y Metodologías</h3>
+                <ul>
+                    <li>Metodologías Ágiles (Scrum)</li>
+                    <li>Git y GitHub (Control de versiones)</li>
+                    <li>Resolución de problemas lógicos</li>
+                    <li>Estructuras de datos</li>
+                    <li>Bases de datos relacionales y NoSQL</li>
+                </ul>
+            </section>
 
-        <section>
-            <h3>Habilidades Blandas </h3>
-            <ul>
-                <li>Trabajo en equipo</li>
-                <li>Comunicación efectiva</li>
-                <li>Pensamiento crítico</li>
-                <li>Adaptabilidad</li>
-            </ul>
-        </section>
-    </main>
+            <section class="texto-destacado">
+                <h3>Habilidades Blandas</h3>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Comunicación efectiva</li>
+                    <li>Pensamiento crítico</li>
+                    <li>Adaptabilidad</li>
+                    <li>Gestión del tiempo</li>
+                </ul>
+            </section>
 
-    <footer>
-        <section>
-            <p>Sigueme en mis redes:</p>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Github</a></li>
-            </ul>
-        </section>
+            <section class="tarjeta-proyecto">
+                <h3>En Aprendizaje Continuo</h3>
+                <p>Actualmente estoy expandiendo mis conocimientos en:</p>
+                <span class="badge-tecnologia">JavaScript</span>
+                <span class="badge-tecnologia">React</span>
+                <span class="badge-tecnologia">Node.js</span>
+                <span class="badge-tecnologia">Python</span>
+            </section>
+        </main>
 
-        <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
-    </footer>
+        <footer>
+            <div class="redes-sociales">
+                <p>Sigueme en mis redes:</p>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Github</a>
+            </div>
+
+            <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
+        </footer>
+
+    </div>
 
 </body>
 </html>

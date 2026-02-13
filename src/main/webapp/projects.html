@@ -4,77 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos - Sebastian Escalante</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Sebastian Escalante Ramirez</h1>
-        <h2>Ingeniero de software</h2>
-        
-        <nav>
-               <a href="index.html">Inicio</a>
+    <div id="contenedor-principal">
+
+        <header>
+            <h1>Sebastian Escalante Ramirez</h1>
+            <h2>Ingeniero de software</h2>
+            
+            <nav>
+                <a href="index.html">Inicio</a>
                 <a href="about.html">Sobre mi</a>
                 <a href="skills.html">Habilidades</a>
                 <a href="work.html">Proyectos</a>
                 <a href="contact.html">Contacto</a>
             </nav>
-    </header>
+        </header>
 
-    <main>
-        <section>
-            <h3>Mis Proyectos Recientes</h3>
-            <p>A continuación presento algunos de los desarrollos más destacados en mi formación:</p>
+        <main>
+            <section class="texto-destacado">
+                <h3>Mis Proyectos Recientes</h3>
+                <p>A continuación presento algunos de los desarrollos más destacados en mi formación como ingeniero de software:</p>
+            </section>
 
             <hr>
 
-            <article>
+            <article class="tarjeta-proyecto">
+                <span class="etiqueta-nuevo"></span>
+                
                 <h4>1. Sistema de Gestión Académica</h4>
                 <p><strong>Descripción:</strong> Un proyecto enfocado en la organización de datos escolares. Permite registrar alumnos, asignar materias y calcular promedios de manera automatizada.</p>
                 
-                <p><strong>Tecnologías usadas:</strong></p>
+                <p><strong>Características principales:</strong></p>
                 <ul>
-                    <li>Java</li>
-                    <li>Estructuras de Datos</li>
-                    <li>MySQL</li>
+                    <li>Gestión de estudiantes y profesores</li>
+                    <li>Asignación de materias</li>
+                    <li>Cálculo automático de promedios</li>
+                    <li>Reportes en tiempo real</li>
                 </ul>
                 
-                <p>
-                    <a href="https://github.com/tu-usuario/gestion-academica" target="_blank">Ver código en GitHub</a>
-                </p>
+                <p><strong>Tecnologías usadas:</strong></p>
+                <span class="badge-tecnologia">Java</span>
+                <span class="badge-tecnologia">Estructuras de Datos</span>
+                <span class="badge-tecnologia">MySQL</span>
+                
+                <br><br>
+                <a href="https://github.com" target="_blank" class="boton-destacado">Ver código en GitHub</a>
             </article>
 
             <hr>
 
-            <article>
+            <article class="tarjeta-proyecto">
                 <h4>2. Portafolio Web Personal</h4>
                 <p><strong>Descripción:</strong> Sitio web estático diseñado para mostrar mi trayectoria profesional y habilidades. Desarrollado con enfoque en HTML semántico y buenas prácticas de codificación.</p>
                 
-                <p><strong>Tecnologías usadas:</strong></p>
+                <p><strong>Características principales:</strong></p>
                 <ul>
-                    <li>HTML5 Semántico</li>
-                    <li>Git / GitHub Pages</li>
+                    <li>Diseño responsive para todos los dispositivos</li>
+                    <li>Navegación intuitiva entre secciones</li>
+                    <li>Formulario de contacto funcional</li>
+                    <li>Estilos CSS organizados y documentados</li>
                 </ul>
                 
-                <p>
-                    <a href="https://github.com" target="_blank">Ver código en GitHub</a>
-                </p>
+                <p><strong>Tecnologías usadas:</strong></p>
+                <span class="badge-tecnologia">HTML5 Semántico</span>
+                <span class="badge-tecnologia">CSS3</span>
+                <span class="badge-tecnologia">Git</span>
+                <span class="badge-tecnologia">GitHub Pages</span>
+                
+                <br><br>
+                <a href="https://github.com" target="_blank" class="boton-destacado">Ver código en GitHub</a>
             </article>
 
-        </section>
-    </main>
+            <hr>
 
-    <footer>
-        <section>
-            <p>Sigueme en mis redes:</p>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Github</a></li>
-            </ul>
-        </section>
+            <section>
+                <h3>Próximos Proyectos</h3>
+                <p>Actualmente estoy trabajando en:</p>
+                <ul>
+                    <li>Sistema de inventario con MongoDB</li>
+                    <li>Aplicación web con JavaScript y React</li>
+                    <li>API REST con Node.js</li>
+                </ul>
+            </section>
 
-        <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
-    </footer>
+        </main>
+
+        <footer>
+            <div class="redes-sociales">
+                <p>Sigueme en mis redes:</p>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Github</a>
+            </div>
+
+            <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
+        </footer>
+
+    </div>
 
 </body>
 </html>

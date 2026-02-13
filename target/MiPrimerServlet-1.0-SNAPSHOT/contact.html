@@ -4,84 +4,94 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto - Sebastian Escalante</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
-        <header>
-            <h1>Sebastian Escalante Ramirez</h1>
-            <h2>Ingeniero de software</h2>
+        <div id="contenedor-principal">
 
-            <nav>
-               <a href="index.html">Inicio</a>
-                <a href="about.html">Sobre mi</a>
-                <a href="skills.html">Habilidades</a>
-                <a href="work.html">Proyectos</a>
-                <a href="contact.html">Contacto</a>
-            </nav>
-        </header>
+            <header>
+                <h1>Sebastian Escalante Ramirez</h1>
+                <h2>Ingeniero de software</h2>
 
-        <main>
-            <section>
-                <h3>Formulario de contacto:</h3>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="about.html">Sobre mi</a>
+                    <a href="skills.html">Habilidades</a>
+                    <a href="work.html">Proyectos</a>
+                    <a href="contact.html">Contacto</a>
+                </nav>
+            </header>
 
-                <form action="#" method="post">
+            <main>
+                <section>
+                    <h3>Formulario de contacto</h3>
+                    <p>¿Tienes alguna pregunta o quieres trabajar conmigo? ¡Déjame un mensaje!</p>
 
-                    <label for="nombre">Nombre completo:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+                    <form action="#" method="post">
 
-                    <label for="correo">Correo:</label><br>
-                    <input type="email" id="correo" name="correo" placeholder="usuario@ejemplo.com" required><br><br>
+                        <label for="nombre">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
 
-                    <label for="telefono">Telefono:</label><br>
-                    <input type="tel" id="telefono" name="telefono" placeholder="123-456-7890"><br><br>
+                        <label for="correo">Correo:</label><br>
+                        <input type="email" id="correo" name="correo" placeholder="usuario@ejemplo.com" required><br><br>
 
-                    <label for="edad">Edad:</label><br>
-                    <input type="number" id="edad" name="edad" min="1"><br><br>
+                        <label for="telefono">Teléfono:</label><br>
+                        <input type="tel" id="telefono" name="telefono" placeholder="123-456-7890"><br><br>
 
-                    <label for="fecha">Fecha:</label><br>
-                    <input type="date" id="fecha" name="fecha"><br><br>
+                        <label for="edad">Edad:</label><br>
+                        <input type="number" id="edad" name="edad" min="1"><br><br>
 
-                    <label for="motivo">Motivo de contacto:</label><br>
-                    <select id="motivo" name="motivo">
-                        <option value="" disabled selected>Seleccione una opcion</option>
-                        <option value="trabajo">Trabajo</option>
-                        <option value="escuela">Escuela</option>
-                        <option value="otro">Otro</option>
-                    </select><br><br>
+                        <label for="fecha">Fecha:</label><br>
+                        <input type="date" id="fecha" name="fecha"><br><br>
 
-                    <fieldset>
-                        <legend>¿Como te gustaria que te contacte?</legend>
+                        <label for="motivo">Motivo de contacto:</label><br>
+                        <select id="motivo" name="motivo">
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="trabajo">Trabajo</option>
+                            <option value="escuela">Escuela</option>
+                            <option value="otro">Otro</option>
+                        </select><br><br>
 
-                        <input type="radio" id="pref_correo" name="preferencia" value="correo">
-                        <label for="pref_correo">Correo</label><br>
+                        <fieldset>
+                            <legend>¿Cómo te gustaría que te contacte?</legend>
 
-                        <input type="radio" id="pref_whatsapp" name="preferencia" value="whatsapp">
-                        <label for="pref_whatsapp">Whatsapp</label><br>
+                            <input type="radio" id="pref_correo" name="preferencia" value="correo">
+                            <label for="pref_correo">Correo</label><br>
 
-                        <input type="radio" id="pref_instagram" name="preferencia" value="instagram">
-                        <label for="pref_instagram">Instagram</label>
-                    </fieldset>
-                    <br>
+                            <input type="radio" id="pref_whatsapp" name="preferencia" value="whatsapp">
+                            <label for="pref_whatsapp">Whatsapp</label><br>
 
-                    <button type="reset">Limpiar</button>
-                    <button type="submit">Guardar</button>
+                            <input type="radio" id="pref_instagram" name="preferencia" value="instagram">
+                            <label for="pref_instagram">Instagram</label>
+                        </fieldset>
+                        <br>
 
-                </form>
-            </section>
-        </main>
+                        <button type="reset">Limpiar</button>
+                        <button type="submit">Guardar</button>
 
-        <footer>
-            <section>
-                <p>Sigueme en mis redes:</p>
-                <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Github</a></li>
-                </ul>
-            </section>
+                    </form>
+                </section>
 
-            <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
-        </footer>
+                <section class="texto-destacado">
+                    <h3>Información de Contacto</h3>
+                    <p><strong>Email:</strong> sebastian.escalante252321@potros.itson.edu.mx</p>
+                    <p><strong>Ubicación:</strong> Ciudad Obregón, Sonora, México</p>
+                </section>
+            </main>
+
+            <footer>
+                <div class="redes-sociales">
+                    <p>Sigueme en mis redes:</p>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Github</a>
+                </div>
+
+                <p>©2026 Sebastian Escalante Ramirez. Todos los derechos reservados</p>
+            </footer>
+
+        </div>
 
     </body>
 </html>
